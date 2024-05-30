@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(images/bg-intro-mobile.png);
+  background-color: hsl(0, 100%, 74%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-family: Poppins;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+h1{
+  margin-bottom: 10px;
+}
+p{
+  margin-bottom: 20px;
+}
+button {
+  padding: 1.4em 1em;
+  color: white;
+  background-color: hsl(248, 32%, 49%);
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; 
+}
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 520px;
+  padding: 1.5em;
+}
+input{
+  font-family: inherit;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+div button{
+  background-color: hsl(154, 59%, 51%);
+}
+div p{
+  color: hsl(246, 25%, 77%);
+  font-size: 0.6rem;
+}
+div span{
+  font-weight: bold;
+  color: hsl(0, 100%, 74%);
+}
