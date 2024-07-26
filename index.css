@@ -17,6 +17,13 @@ body{
   margin: auto;
   text-align: center;
 }
+div .error {
+  font-weight: lighter;
+  color: red;
+  font-size: 0.7rem;
+  margin: 0;
+  text-align: end;
+}
 h1{
   margin-bottom: 10px;
 }
